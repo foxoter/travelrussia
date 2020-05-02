@@ -1,0 +1,26 @@
+.page-subtitle {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9rem;
+    line-height: 1.2;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 583px;
+    margin: 0 auto 2.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .page-subtitle {
+        font-size: 1.5rem;
+        line-height: 1.1;
+    }
+}
+
+
+@media screen and (max-width: 411px) {
+    .page-subtitle {
+        font-size: 1rem;
+        line-height: 1.1;
+    }
+}

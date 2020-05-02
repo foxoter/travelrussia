@@ -1,0 +1,28 @@
+.comments__container {
+    max-width: 1184px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 19px;
+}
+
+@media screen and (max-width: 1439px) {
+    .comments__container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .comments__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 3rem;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comments__container {
+        max-width: 90%;
+    }
+}

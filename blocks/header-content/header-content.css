@@ -1,0 +1,27 @@
+.header-content {
+    /*max-width: 1184px;*/
+    padding: 1.8rem 8rem 3rem;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: #2A2C2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1439px) {
+    .header-content {
+        padding: 1.8rem 3rem 3rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header-content {
+        padding: 1.8rem 1.5rem 3rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-content {
+        padding: 1rem 1rem 3rem;
+    }
+}

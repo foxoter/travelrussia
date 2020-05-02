@@ -1,0 +1,18 @@
+.intro__facts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6.375rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__facts-list {
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__facts-list {
+        margin-bottom: 4rem;
+    }
+}

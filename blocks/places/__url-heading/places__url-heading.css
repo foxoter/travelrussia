@@ -1,0 +1,12 @@
+.places__url-heading {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    /* margin-bottom: 16px; */
+    /* Фигма показывает этот отступ. Если поставить — получается слишком высоко.
+    Без него как раз как в макете, где отступ, видимо, не учитывает высоту строк. */
+}

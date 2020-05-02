@@ -1,0 +1,68 @@
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    box-sizing: content-box;
+    transition: opacity 0.5s linear 0s;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
+
+.cover {
+    max-width: 82%;
+    min-height: 594px;
+    margin: 0 auto 72px;
+    background-image: url(../../images/cover.jpg);
+    background-size: cover;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+    .cover {
+        max-width: 92.5%;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        min-height: 386px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        min-height: 272px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .cover {
+        min-height: 216px;
+    }
+}

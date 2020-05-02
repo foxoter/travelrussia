@@ -1,0 +1,27 @@
+.places__text {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1023px) {
+    .places__text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__text {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .places__text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

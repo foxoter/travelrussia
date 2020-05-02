@@ -1,0 +1,19 @@
+.video__icon {
+    width: 41px;
+    height: 41px;
+    background-size: contain;
+    margin: 30px;
+    position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+    .video__icon {
+        margin: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video__icon {
+        margin-bottom: 1rem;
+    }
+}

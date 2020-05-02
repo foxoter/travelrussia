@@ -1,0 +1,29 @@
+.places__cell {
+    margin-bottom: 4.5rem;
+    display: grid;
+    grid-template-columns: 47% 1fr;
+    grid-template-rows: auto 1fr;
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 3.75rem;
+}
+
+@media screen and (max-width: 1279px)  {
+    .places__cell {
+        grid-column-gap: 2rem;
+        grid-row-gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__cell {
+        grid-column-gap: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__cell {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+}

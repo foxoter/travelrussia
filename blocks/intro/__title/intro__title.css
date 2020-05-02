@@ -1,0 +1,27 @@
+.intro__title {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 1.1;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        font-size: 2.75rem;
+        line-height: 1.1;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+    .intro__title {
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+
+}
+

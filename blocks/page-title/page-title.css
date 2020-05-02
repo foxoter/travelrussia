@@ -1,0 +1,26 @@
+.page-title {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 0.9;
+    text-align: center;
+    color: white;
+    max-width: 782px;
+    margin: 0 auto 0.5em;
+}
+
+@media screen and (max-width: 767px) {
+    .page-title {
+        font-size: 4.25rem;
+        line-height: 1.1;
+    }
+}
+
+
+@media screen and (max-width: 494px) {
+    .page-title {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+}
