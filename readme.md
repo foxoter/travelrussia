@@ -2,4 +2,8 @@
 
 Layouts building training.
 
-Website link: https://foxoter.github.io/travelrussia/
+### Technologies
+* HTML
+* CSS
+
+[Website link](https://foxoter.github.io/travelrussia/)
