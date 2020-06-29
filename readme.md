@@ -1,9 +1,10 @@
 # Travel Russia
 
-Layouts building training.
+1 page layout about travelling in Russia. Responsive design: 320px up to 1440px+ width.
 
-### Technologies
+## Technologies
 * HTML
 * CSS
 
-[Website link](https://foxoter.github.io/travelrussia/)
+## See the page
+[Link](https://foxoter.github.io/travelrussia/)
